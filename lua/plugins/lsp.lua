@@ -1,30 +1,5 @@
 return {
     {
-        "nvim-lualine/lualine.nvim",
-        opts = { options = { theme = "onedark" } },
-        event = "VeryLazy",
-    },
-    {
-        "navarasu/onedark.nvim",
-        config = function() require("onedark").load() end,
-        priority = 1000,
-    },
-    {
-        "windwp/nvim-autopairs",
-        config = true,
-    },
-    {
-        "nvim-treesitter/nvim-treesitter",
-        build = ":TSUpdate",
-        config = function()
-            require("nvim-treesitter.configs").setup({
-                highlight = {
-                    enable = true,
-                }
-            })
-        end,
-    },
-    {
         "neovim/nvim-lspconfig",
         dependencies = { "williamboman/mason-lspconfig.nvim" },
         config = function()
