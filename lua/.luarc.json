@@ -1,0 +1,14 @@
+{
+    "workspace.library": [
+        "/Users/devarcana/.config/nvim",
+        "/Users/devarcana/.local/share/nvim/lazy/lazy.nvim",
+        "/Users/devarcana/.local/share/nvim/lazy/nvim-lspconfig",
+        "/Users/devarcana/.local/share/nvim/lazy/mason.nvim",
+        "/Users/devarcana/.local/share/nvim/lazy/mason-lspconfig.nvim",
+        "/Users/devarcana/.local/share/nvim/lazy/onedark.nvim",
+        "/opt/homebrew/Cellar/neovim/0.9.0/share/nvim/runtime",
+        "/opt/homebrew/Cellar/neovim/0.9.0/lib/nvim",
+        "/Users/devarcana/.local/state/nvim/lazy/readme",
+        "${3rd}/luassert/library"
+    ]
+}
